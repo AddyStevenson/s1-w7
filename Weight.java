@@ -36,7 +36,7 @@ public Weight multiple(int scale){
 }
 
 public void print(){
-    System.out.println(this.pounds + "pounds, " + this.ounces + " ounces");
+    System.out.println(this.pounds + " pounds, " + this.ounces + " ounces");
 }
 
 
