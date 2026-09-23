@@ -17,5 +17,12 @@ public Weight(int pounds, int ounces){
         this.pounds = pounds;
 }
 
+public boolean isHeavier(Weight other){
+    int totalW = this.ounces + 16 * this.pounds;
+    int otherW = other.ounces + 16 * other.pounds;
+    if(totalW > otherW)
+        return true;
+    else 
+        return false;
 }
  
